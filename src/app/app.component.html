@@ -16,10 +16,14 @@
         <input id="input" class="input11" matInput placeholder="Enter Task" name="input" #input>
         <button class="input11" id="button" mat-raised-button (click)="submit(input.value)">ADD TASK</button>
         <br><br>
+        <button routerLink="details" mat-raised-button style="margin-right: 20px;">Todo Details</button>
+        <button routerLink="list" mat-raised-button>Todo List</button>
     </div>
 </body>
-<app-todo-details></app-todo-details>
-<app-todo-list></app-todo-list>
+<router-outlet></router-outlet>
+
+<!--<app-todo-details></app-todo-details>
+<app-todo-list></app-todo-list>-->
 <app-todo-spacex></app-todo-spacex>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
