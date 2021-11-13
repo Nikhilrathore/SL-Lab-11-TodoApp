@@ -1,0 +1,32 @@
+.List-data {
+    text-align: center;
+    background: rgba(233, 232, 227, 0.336);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    margin-left: 100px;
+}
+
+body {
+    background-color: rgb(170, 151, 118);
+}
+
+ul {
+    background-color: rgb(207, 199, 176);
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    display: inline-flex;
+    margin-left: 100px;
+    background-color: wheat;
+}

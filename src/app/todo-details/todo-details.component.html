@@ -1,0 +1,19 @@
+<body>
+
+
+    <br>
+    <br>
+    <h2>Todo Table</h2>
+    <table border="1px" class="table-data">
+        <tr>
+            <td><b>Task Number</b></td>
+            <td><b>Task</b></td>
+        </tr>
+        <tr *ngFor="let item of todolist">
+            <td>{{item.sno}}</td>
+            <td>{{item.Task}}</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+</body>
